@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #333;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+nav .login-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav .login-btn:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.about {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 36px; /* Збільшити розмір заголовка */
+    margin-bottom: 20px;
+    color: #222;
+    font-weight: 700; /* Зробити текст жирнішим */
+}
+
+.about p {
+    font-size: 18px; /* Зменшити розмір тексту для абзаців */
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.8; 
+    text-align: center; /* Вирівнювання тексту по ширині */
+}
+
+.about ul {
+    list-style: disc; /* Змінити стиль списку на "кулі" */
+    padding-left: 20px; /* Відступ для списку */
+    margin: 20px 0;
+}
+
+.about ul li {
+    font-size: 18px; /* Зменшити розмір тексту для елементів списку */
+    color: #777;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.about img {
+    max-width: 100%; 
+    border-radius: 10px;
+    margin-top: 20px; 
+}
+
+.about iframe {
+    width: 100%; /* Зробити карту адаптивною */
+    max-width: 600px; /* Максимальна ширина */
+    height: 450px; /* Висота */
+    border: 0; /* Прибрати рамку */
+    margin-top: 20px; /* Відступ від тексту */
+}
+
+.about p:last-child {
+    font-weight: bold; /* Жирний шрифт для останнього абзацу */
+    color: #000; /* Чорний колір для виділення */
+}
